@@ -1,0 +1,15 @@
+{
+    "appPort": "8080",
+    "intervalTime": "120000",
+    "destinationUserName": "pi",
+    "destinationPassword": "raspberry",
+    "destinationPath": "/home/pi/",
+    "destinationHost": "192.168.0.45",
+    "sqlUserName": "sa",
+    "sqlPassword": "Password@123",
+    "sqlServerHost": "52.187.79.197",
+    "databaseName": "MediaZenieTest",
+    "sqlGetCmd": "select * from posts where ToBeUploadedInMediaServer=1 and AlreadyUploaded=0",
+    "sqlStatusUpdateCmd": "update posts set contenturl=@contenturl, AlreadyUploaded=1 where ID=@id",
+    "ServerUrl": "http://52.187.67.18/live1/"
+}

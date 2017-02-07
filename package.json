@@ -1,0 +1,18 @@
+{
+    "name": "uploadertestbyhemant",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "kaushik.hemant@live.com",
+    "description": "App for upload files to media server",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {},
+    "dependencies": {
+        "express": "~4.14.1",
+        "fs": "0.0.1-security",
+        "scp2": "0.5.0",
+        "mssql": "3.3.0"
+    }
+}
